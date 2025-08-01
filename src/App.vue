@@ -436,6 +436,7 @@ body, html {
   display: flex;
   gap: 15px;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .search-input {
@@ -470,6 +471,7 @@ body, html {
   padding: 15px;
   border-radius: 10px;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .budget-input {
@@ -722,11 +724,11 @@ body, html {
   .main-content {
     grid-template-columns: 1fr;
   }
-  
+
   .search-bar {
     flex-direction: column;
   }
-  
+
   .products-grid {
     grid-template-columns: 1fr;
   }
