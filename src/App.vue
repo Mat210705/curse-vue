@@ -413,11 +413,16 @@ body, html {
 
 .main-content {
   display: grid;
-  grid-template-columns: 1fr 400px;
+  grid-template-columns: 1fr;
   gap: 30px;
   padding: 20px;
-  max-width: none;
   width: 100%;
+}
+
+@media (min-width: 900px) {
+  .main-content {
+    grid-template-columns: 1fr 400px;
+  }
 }
 
 .search-section {
